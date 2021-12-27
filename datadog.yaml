@@ -3,5 +3,5 @@
   roles:
     - { role: datadog.datadog, become: yes }
   vars:
-    datadog_api_key: "8226a843a20804f38a924fbfd53f0a52"
+    datadog_api_key: "*"
     datadog_site: "datadoghq.com"
